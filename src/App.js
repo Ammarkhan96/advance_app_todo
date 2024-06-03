@@ -100,11 +100,7 @@ function App() {
 			setTaskName('');
 			return;
 		}
-		if (assignee.trim().length === 0) {
-			alert('Assignee field cannot be empty');
-			setAssignee('');
-			return;
-		}
+		
 		if (storyPoints.trim().length === 0) {
 			alert('Story Points field cannot be empty');
 			setStoryPoints('');
@@ -143,11 +139,7 @@ function App() {
 			setTaskName('');
 			return;
 		}
-		if (assignee.trim().length === 0) {
-			alert('Assignee field cannot be empty');
-			setAssignee('');
-			return;
-		}
+		
 		if (storyPoints.trim().length === 0) {
 			alert('Story Points field cannot be empty');
 			setStoryPoints('');
